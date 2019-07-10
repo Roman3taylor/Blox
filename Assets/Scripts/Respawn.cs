@@ -23,6 +23,7 @@ public class Respawn : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
 
+        Debug.Log("Fell");
     }
 
 }
